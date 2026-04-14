@@ -1,0 +1,5 @@
+case_id,client,issue,severity,status
+C-1001,Alpha BV,Data Processing Addendum Missing,high,open
+C-1002,Beta GmbH,Termination Notice Period Conflict,medium,in_review
+C-1003,Gamma SA,Jurisdiction Clause Ambiguous,high,open
+C-1004,Delta Oy,Payment Terms Mismatch,low,closed

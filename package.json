@@ -1,0 +1,39 @@
+{
+  "name": "multi-source-knowledge-api",
+  "version": "1.0.0",
+  "description": "Conversational RAG API with multi-format document ingestion and hybrid retrieval",
+  "main": "dist/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "db:init": "tsx src/db/init.ts",
+    "test": "vitest run",
+    "eval": "tsx src/evaluation/runner.ts"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^9.0.3",
+    "@fastify/sensible": "^6.0.3",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "mammoth": "^1.8.0",
+    "openai": "^4.77.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

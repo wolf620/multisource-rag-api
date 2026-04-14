@@ -1,0 +1,13 @@
+{
+  "contract": "Service Agreement",
+  "effective_date": "2026-01-01",
+  "parties": ["Acme Corp", "Beta LLC"],
+  "termination_clause": "Either party may terminate with 30 days written notice.",
+  "governing_law": "Netherlands",
+  "confidentiality": true,
+  "payment_terms": {
+    "currency": "EUR",
+    "amount": 5000,
+    "cycle": "monthly"
+  }
+}
